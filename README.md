@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/BMoiz/almousta9bal-or/main/logo.jpg" alt="شعار مؤسسة المستقبل للثقافة والتربية والعلوم" width="140">
+<img src="assets/logo.jpg" alt="شعار مؤسسة المستقبل للثقافة والتربية والعلوم" width="140">
 
 # almousta9bal-org — حفل تكريم المتفوقين | فرع قايس
 
@@ -13,7 +13,7 @@
 ![Vanilla JavaScript](https://img.shields.io/badge/JavaScript-Vanilla-F7DF1E?logo=javascript&logoColor=black)
 ![No Build Step](https://img.shields.io/badge/build-none-brightgreen)
 
-<img src="https://raw.githubusercontent.com/BMoiz/almousta9bal-or/main/home-desktop.png" alt="Desktop screenshot of the honorees page" width="800">
+<img src="assets/screenshots/home-desktop.png" alt="Desktop screenshot of the honorees page" width="800">
 
 </div>
 
@@ -32,11 +32,11 @@
 <table>
   <tr>
     <td width="60%">
-      <img src="https://raw.githubusercontent.com/BMoiz/almousta9bal-or/main/filter-quran-desktop.png" alt="Desktop view with the Quran activity filter selected">
+      <img src="assets/screenshots/filter-quran-desktop.png" alt="Desktop view with the Quran activity filter selected">
       <p align="center">Filtering by activity</p>
     </td>
     <td width="40%">
-      <img src="https://raw.githubusercontent.com/BMoiz/almousta9bal-or/main/search-mobile.png" alt="Mobile view showing a name search">
+      <img src="assets/screenshots/search-mobile.png" alt="Mobile view showing a name search">
       <p align="center">Searching on mobile</p>
     </td>
   </tr>
@@ -94,7 +94,7 @@ No installation is required.
 
 3. Visit [http://localhost:8000](http://localhost:8000).
 
-The HTML references `style.css`, `script.js`, and `logo.jpg` from the repository root.
+The HTML loads `css/style.css`, `js/script.js`, and `assets/logo.jpg`. Screenshot paths in this README are relative, so they remain valid if the repository is renamed.
 
 ## Update the honoree list
 
