@@ -2,9 +2,9 @@
 
 <div align="center">
 
-<img src="logo.jpg" alt="شعار مؤسسة المستقبل للثقافة والتربية والعلوم" width="140">
+<img src="https://raw.githubusercontent.com/BMoiz/almousta9bal-or/main/logo.jpg" alt="شعار مؤسسة المستقبل للثقافة والتربية والعلوم" width="140">
 
-# حفل تكريم المتفوقين — فرع قايس
+# almousta9bal-org — حفل تكريم المتفوقين | فرع قايس
 
 **An Arabic-first honorees directory for the Future Organization's Qais branch recognition ceremony.**
 
@@ -13,7 +13,7 @@
 ![Vanilla JavaScript](https://img.shields.io/badge/JavaScript-Vanilla-F7DF1E?logo=javascript&logoColor=black)
 ![No Build Step](https://img.shields.io/badge/build-none-brightgreen)
 
-<img src="home-desktop.png" alt="Desktop screenshot of the honorees page" width="800">
+<img src="https://raw.githubusercontent.com/BMoiz/almousta9bal-or/main/home-desktop.png" alt="Desktop screenshot of the honorees page" width="800">
 
 </div>
 
@@ -32,11 +32,11 @@
 <table>
   <tr>
     <td width="60%">
-      <img src="filter-quran-desktop.png" alt="Desktop view with the Quran activity filter selected">
+      <img src="https://raw.githubusercontent.com/BMoiz/almousta9bal-or/main/filter-quran-desktop.png" alt="Desktop view with the Quran activity filter selected">
       <p align="center">Filtering by activity</p>
     </td>
     <td width="40%">
-      <img src="search-mobile.png" alt="Mobile view showing a name search">
+      <img src="https://raw.githubusercontent.com/BMoiz/almousta9bal-or/main/search-mobile.png" alt="Mobile view showing a name search">
       <p align="center">Searching on mobile</p>
     </td>
   </tr>
