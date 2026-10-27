@@ -70,14 +70,17 @@ The font and icon stylesheet are loaded from third-party CDNs. The core page doe
 
 ```text
 .
-├── index.html                  # Page markup and content structure
-├── style.css                   # Layout, colors, responsive styles, and focus states
-├── script.js                   # Honoree data, rendering, search, and filtering
-├── logo.jpg                    # Organization logo
-├── home-desktop.png            # README screenshot
-├── filter-quran-desktop.png    # Activity-filter screenshot
-├── search-mobile.png           # Mobile-search screenshot
-├── almousta9bal-org-updated.zip # Packaged project archive
+├── index.html
+├── css/
+│   └── style.css
+├── js/
+│   └── script.js
+├── assets/
+│   ├── logo.jpg
+│   └── screenshots/
+│       ├── home-desktop.png
+│       ├── filter-quran-desktop.png
+│       └── search-mobile.png
 └── README.md
 ```
 
