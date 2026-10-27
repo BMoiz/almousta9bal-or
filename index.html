@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>حفل تكريم المتفوقين - مؤسسة المستقبل فرع قايس</title>
+    <meta name="description" content="قائمة المكرمين في حفل التكريم السنوي لمؤسسة المستقبل للثقافة والتربية والعلوم - فرع قايس، مع البحث والتصفية حسب النشاط.">
+    <link rel="icon" href="picture/logo.jpg">
+    <!-- خط تجوال العربي -->
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <!-- أيقونات FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- ربط ملف الـ CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- الهيدر Header -->
+    <header>
+        <div class="container header-container">
+            <div class="logo-area">
+                <!-- ======================================================== -->
+                <!-- ملاحظة مهمة لإضافة الشعار: -->
+                <!-- استبدل "logo.png" بمسار صورة الشعار الخاصة بك على جهازك -->
+                <!-- ======================================================== -->
+                <img src="picture/logo.jpg" alt="شعار مؤسسة المستقبل" class="institution-logo" id="main-logo" onerror="this.style.display='none'; document.getElementById('logo-placeholder').style.display='flex';">
+                
+                <!-- مكان احتياطي في حال عدم وجود صورة الشعار -->
+                <div class="logo-placeholder" id="logo-placeholder" style="display: none;">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                </div>
+
+                <div class="logo-text">
+                    <h1>مؤسسة المستقبل للثقافة والتربية والعلوم</h1>
+                    <span>المكتب البلدي - فرع قايس</span>
+                </div>
+            </div>
+            <div class="event-badge">
+                <i class="fa-solid fa-award"></i>
+                <span>حفل التكريم السنوي</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- لافتة الترحيب وموعد الحفل Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <h2>قائمة المكرمين يوم 12/9/2026</h2>
+            <p>احتفاءً بالمتفوقين والنابغين في مختلف الأنشطة والورشات التعليمية لفرع قايس</p>
+            <div class="search-box">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <label for="search-input" class="sr-only">ابحث عن اسم المكَرّم</label>
+                <input type="text" id="search-input" placeholder="ابحث عن اسم المكَرّم..." oninput="filterHonorees()" autocomplete="off">
+            </div>
+        </div>
+    </section>
+
+    <main class="container main-content">
+
+        <!-- أزرار تصفية الأنشطة Activity Filters -->
+        <div class="filters-container" role="group" aria-label="تصفية المكرمين حسب النشاط">
+            <button type="button" class="filter-btn active" aria-pressed="true" onclick="filterByActivity('all', this)">
+                <i class="fa-solid fa-list-check"></i> جميع المكرمين
+            </button>
+            <button type="button" class="filter-btn" aria-pressed="false" onclick="filterByActivity('arduino', this)">
+                <i class="fa-solid fa-microchip"></i> الأردوينو والروبوتيك
+            </button>
+            <button type="button" class="filter-btn" aria-pressed="false" onclick="filterByActivity('programming', this)">
+                <i class="fa-solid fa-code"></i> البرمجة والتطوير
+            </button>
+            <button type="button" class="filter-btn" aria-pressed="false" onclick="filterByActivity('quran', this)">
+                <i class="fa-solid fa-book-quran"></i> حفظ القرآن الكريم
+            </button>
+            <button type="button" class="filter-btn" aria-pressed="false" onclick="filterByActivity('media', this)">
+                <i class="fa-solid fa-video"></i> إنشاء المحتوى والإعلام
+            </button>
+            <button type="button" class="filter-btn" aria-pressed="false" onclick="filterByActivity('reading', this)">
+                <i class="fa-solid fa-book-open"></i> المطالعة والقراءة
+            </button>
+        </div>
+
+        <!-- شبكة عرض المكرمين Honorees Grid -->
+        <div class="honorees-grid" id="honorees-grid" aria-live="polite">
+            <!-- يتم تعبئة الأسماء ديناميكياً بواسطة JavaScript -->
+        </div>
+
+    </main>
+
+    <!-- الفوتر Footer -->
+    <footer>
+        <div class="container footer-container">
+            <div class="footer-info">
+                <h3>مؤسسة المستقبل للثقافة والتربية والعلوم</h3>
+                <p><i class="fa-solid fa-location-dot"></i> مقر الفرع: قايس، ولاية خنشلة</p>
+                <p><i class="fa-solid fa-phone"></i> التواصل: 0662 529 822</p>
+                <p><i class="fa-solid fa-envelope"></i> البريد الإلكتروني: m.fondation2022@gmail.com</p>
+            </div>
+            <div class="footer-copyright">
+                جميع الحقوق محفوظة © <span id="year"></span> - فرع قايس
+            </div>
+        </div>
+    </footer>
+
+    <!-- ربط ملف الـ JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+</html>
